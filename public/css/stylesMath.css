@@ -1,0 +1,94 @@
+h1{
+  text-align: center;
+  line-height: 3;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+.row{
+  margin-bottom: 5%;
+}
+
+.image-first {
+  width: 80%;
+  margin-left: 23%;
+}
+
+.text-first {
+  text-align: justify;
+  padding: 6% 10%;
+}
+
+#second-paragraph {
+  padding-top: 2%;
+  color: white;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+.image-second {
+  width: 80%;
+  margin-right: 15%;
+}
+
+.text-second {
+  text-align: justify;
+  padding: 4% 7% 4% 13%;
+}
+
+.image-third{
+  width: 80%;
+  margin:30% 0 0 23%;
+}
+
+.text-third{
+  text-align: justify;
+  padding: 2% 10% 0 10%;
+}
+
+#fourth-paragraph{
+  background-image: -webkit-linear-gradient(45deg, #90E0EF 50%, #FFF 50%);
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.image-fourth{
+  width: 80%;
+  margin: 15%;
+}
+
+.image-fifth{
+  width: 80%;
+  margin: 15%;
+}
+
+.col-lg-6{
+  padding-left: 3%;
+}

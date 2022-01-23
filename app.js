@@ -19,10 +19,6 @@ app.post("/math", function(req,res) {
   res.sendFile(__dirname + "/math.html");
 });
 
-app.post("/programming", function(req , res){
-  res.sendFile(__dirname + "/programming.html");
-});
-
 
 ////////////////////////////////////////////////////////////////////////////////
 

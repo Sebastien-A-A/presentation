@@ -119,8 +119,8 @@ p{
 }
 
 .btn-programming{
-  color: blue;
-  border-color: blue;
+  color: rgb(50, 50, 255);
+  border-color: rgb(50, 50, 255);
   font-size: 1.2rem;
   margin:2% 4% 0 0;
 }

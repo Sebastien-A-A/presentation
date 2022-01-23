@@ -8,13 +8,18 @@ p{
   font-size: 1.5rem;
 }
 
+li{
+  font-size: 1.2rem;
+}
+
 .row{
   margin-bottom: 5%;
 }
 
 .image-first {
-  width: 80%;
-  margin-left: 23%;
+  padding: 20% 0;
+  width: 70%;
+  margin-left: 23%
 }
 
 .text-first {
@@ -23,7 +28,7 @@ p{
 }
 
 #second-paragraph {
-  padding-top: 2%;
+  padding: 1% 0;
   color: white;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -33,7 +38,7 @@ p{
 
 .image-second {
   width: 80%;
-  margin-right: 15%;
+  margin: 8% 15% 8% 0;
 }
 
 .text-second {
@@ -53,6 +58,7 @@ p{
 
 #fourth-paragraph{
   background-image: -webkit-linear-gradient(45deg, #90E0EF 50%, #FFF 50%);
+  margin: 0;
 }
 
 @-webkit-keyframes gradient {
@@ -91,4 +97,38 @@ p{
 
 .col-lg-6{
   padding-left: 3%;
+}
+
+
+@media (max-width:1300px){
+  .image-second {
+    margin: 18% 15% 18% 0;
+  }
+}
+
+@media (max-width:991.5px){
+  .image-first {
+    padding: 0%;
+    width: 25%;
+    margin: 0 35%;
+  }
+  .image-second {
+    margin: 0 40% 2%;
+    width: 25%;
+  }
+  .text-second {
+    margin-bottom: 0;
+  }
+  .image-third{
+    width: 30%;
+    margin:1% 35% 4% 35%;
+  }
+  .image-fourth{
+    width: 30%;
+    margin: 1% 35% 4% 35%;
+  }
+  .image-fifth{
+    width: 30%;
+    margin: 1% 35% 4% 35%;
+  }
 }
